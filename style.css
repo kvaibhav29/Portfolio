@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+  }
+.line {
+    width: 80px;
+    height: 3px;
+    background-color: black;
+}
+
+.hero {
+    height: 800;
+    padding-top: 78px;
+    background: rgb(237,169,225);
+    background: linear-gradient(90deg, rgb(237, 169, 225) 0%, rgba(7,46,144,1) 100%, rgba(90,203,226,1) 100%);
+    text-align: center;
+    -webkit-text-fill-color: white;
+    text-shadow: 1ch;
+    text-size-adjust: 40px;
+    font-family: sans-serif;
+    border-top: 2px;
+    border-color: #fff;
+
+}
+.hero img{
+   padding-top: -40px;
+}
+
+.navbar {
+    background: rgb(237,169,225);
+    background: linear-gradient(90deg, rgba(237,169,225,1) 0%, rgba(7,46,144,1) 100%, rgba(90,203,226,1) 100%);
+}
+
+img {
+    width: 30%;
+    height: auto;
+    
+  }
+
+.tools{
+    -webkit-text-fill-color: black;
+    padding-top: 10px;
+    
+
+}
+.tools h1{
+    padding-bottom: 30px;
+}
+.tools img {
+    height: 150;
+    width: 150;
+	box-sizing: border-box;
+	border: 5px white solid;
+    border-radius: 50%;
+    color: #1087c7;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+}
+.tools img:hover{
+   color: black;
+}
+
+.service{
+    padding-bottom: 10px;
+    -webkit-text-fill-color: blue;
+}
+
+.section1{
+    
+    background: #ad6ce8;
+    -webkit-text-fill-color: white;
+    min-height: 400px;
+    overflow: hidden;
+
+}
+
+.section1 h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section1 img{
+    height: 200px;
+    width: auto;
+    align-content: center;
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+.section1 p{
+    display: flex;
+}
+
+.section2{
+    min-height: 400px;
+    overflow: hidden;
+    background: #1087c7;
+    -webkit-text-fill-color: white;
+}
+.section2 h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section2 h3 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.section2 img{
+    padding-top: 0px;
+    height: 200px;
+    width: auto;
+    padding-bottom: 10px;
+    align-content: center;
+    
+}
+
+.section2 p{
+    float: left;
+}
+
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+  }
+  
+  .portfolio-item .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  @media (min-width: 992px) {
+    .portfolio-item {
+      max-width: none;
+      margin: 0;
+    }
+    .portfolio-item .caption {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+      -webkit-clip-path: inset(0px);
+      clip-path: inset(0px);
+    }
+    .portfolio-item .caption .caption-content {
+      -webkit-transition: opacity 0.25s;
+      transition: opacity 0.25s;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+      width: 400px;
+      -webkit-transition: -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(-1px);
+      clip-path: inset(-1px);
+      
+    }
+    .portfolio-item:hover img {
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+    .portfolio-item:hover .caption {
+      background-color: rgba(29, 128, 159, 0.9);
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+  }
+
+  .contact{
+    min-height: 200px;
+    overflow: hidden;
+    background: #1087c7;
+    
+  }
+
+  .btn {
+      left: 50%;
+      margin: auto;
+      width: 100px;
+      border: 50%;
+      color:white;
+      background-color: #ad6ce8;
+  }
+
+  .contact a{
+      top: 50%;
+      position: relative;
+      left: 46%;
+  }
+  .contact ul{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact li{
+      display: table;
+      position: relative;
+      
+      float: right;
+      list-style-type: none;
+
+  }
+
+  .contact copy {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+  }
+ 
