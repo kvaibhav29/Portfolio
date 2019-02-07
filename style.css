@@ -205,7 +205,7 @@ img {
   .contact{
     min-height: 200px;
     overflow: hidden;
-    background: #1087c7;
+    background: black;
     
   }
 
@@ -237,9 +237,67 @@ img {
 
   }
 
-  .contact copy {
+  .contact .copy {
     text-align: center;
     vertical-align: middle;
-    line-height: 200px; 
+    
   }
  
+  .contact .box{
+      position: relative;
+      left:20%;
+      margin: auto;
+      float: left;
+      width: 200px;
+      height: 50px;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 0 10px;
+  }
+
+  .contact .box .icon {
+      
+      
+      background:#151515;
+      transition: .5s;
+      transform-origin: top;
+      transform: translateY(0px) rotateX(0deg);
+  }
+
+  .contact .box:hover .icon{
+    transform: translateY(100%) rotateX(90deg);
+  }
+
+  .contact .box .icon .fas{
+      font-size: 2em;
+      line-height: 50px;
+  }
+
+  .contact .box .details {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 200px;
+      height: 50px;
+      background: rgb(65, 65, 209);
+      transition: .5s;
+      transform-origin: bottom;
+      transform: translateY(-50px) rotateX(90deg);
+  }
+  .contact .box:nth-child(2) .details {
+      background: red;
+  }
+  .contact .box:nth-child(3) .details {
+    background: rgb(8, 182, 8);
+}
+  .contact .box:hover .details{
+    transform: translateY(50%) rotateX(0deg);
+  }
+
+  .contact .box .details p{
+      margin: 0;
+      padding: 0;
+      line-height: 50px;
+      font-size: 14px;
+      -webkit-text-fill-color: #fff;
+  }
