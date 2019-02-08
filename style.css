@@ -209,19 +209,19 @@ img {
     
   }
 
-  .btn {
-      left: 50%;
-      margin: auto;
-      width: 100px;
-      border: 50%;
+  .contact .btn {
+      margin-top: 20px;
+      width: 150px;
       color:white;
       background-color: #ad6ce8;
   }
+  
 
   .contact a{
-      top: 50%;
+      
       position: relative;
-      left: 46%;
+      margin-left: auto;
+      margin-right: auto;
   }
   .contact ul{
     margin-left: auto;
@@ -253,12 +253,13 @@ img {
       box-sizing: border-box;
       text-align: center;
       margin: 0 10px;
+      margin-bottom: 20px;
   }
 
   .contact .box .icon {
       
       
-      background:#151515;
+      background:#252424;
       transition: .5s;
       transform-origin: top;
       transform: translateY(0px) rotateX(0deg);
