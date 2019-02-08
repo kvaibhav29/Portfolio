@@ -205,7 +205,8 @@ img {
   .contact{
     min-height: 200px;
     overflow: hidden;
-    background: black;
+    background: rgb(237,169,225);
+    background: linear-gradient(90deg, rgb(237, 169, 225) 0%, rgba(7,46,144,1) 100%, rgba(90,203,226,1) 100%);
     
   }
 
@@ -254,15 +255,17 @@ img {
       text-align: center;
       margin: 0 10px;
       margin-bottom: 20px;
+      
   }
 
   .contact .box .icon {
       
       
-      background:#252424;
+      background:#1087c7;
       transition: .5s;
       transform-origin: top;
       transform: translateY(0px) rotateX(0deg);
+      border-radius: 5px;
   }
 
   .contact .box:hover .icon{
@@ -280,10 +283,11 @@ img {
       left: 0;
       width: 200px;
       height: 50px;
-      background: rgb(65, 65, 209);
+      background: #2a1d5c;
       transition: .5s;
       transform-origin: bottom;
       transform: translateY(-50px) rotateX(90deg);
+      border-radius: 5px;
   }
   .contact .box:nth-child(2) .details {
       background: red;
