@@ -260,7 +260,7 @@ img {
 
   .contact .box .icon {
       
-      
+      box-shadow: 3px 3px 2px white;
       background:#1087c7;
       transition: .5s;
       transform-origin: top;
@@ -288,6 +288,7 @@ img {
       transform-origin: bottom;
       transform: translateY(-50px) rotateX(90deg);
       border-radius: 5px;
+      box-shadow: 3px 3px 2px white;
   }
   .contact .box:nth-child(2) .details {
       background: red;
