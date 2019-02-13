@@ -31,7 +31,7 @@ html {
 }
 
 img {
-    width: 30%;
+    width: 25%;
     height: auto;
     
   }
@@ -65,7 +65,7 @@ img {
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
 }
-}
+
 .tools img:hover{
    color: black;
 }
@@ -219,48 +219,32 @@ img {
   
 
   .contact a{
-      
       position: relative;
       margin-left: auto;
       margin-right: auto;
   }
-  .contact ul{
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .contact li{
-      display: table;
-      position: relative;
-      
-      float: right;
-      list-style-type: none;
-
-  }
-
-  .contact .copy {
-    text-align: center;
-    vertical-align: middle;
-    
+  .contact .contain{
+      display: flex;
   }
  
-  .contact .box{
-      position: relative;
-      left:20%;
-      margin: auto;
-      float: left;
-      width: 200px;
-      height: 50px;
-      box-sizing: border-box;
-      text-align: center;
-      margin: 0 10px;
-      margin-bottom: 20px;
-      
-  }
-
+  .container .box{
+    position: relative;
+    right: auto;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    left: 20%;
+    float: left;
+    
+}
+  
   .contact .box .icon {
       
-      box-shadow: 3px 3px 2px white;
+      box-shadow: 3px 3px 2px rgb(206, 203, 203);
       background:#1087c7;
       transition: .5s;
       transform-origin: top;
@@ -288,7 +272,7 @@ img {
       transform-origin: bottom;
       transform: translateY(-50px) rotateX(90deg);
       border-radius: 5px;
-      box-shadow: 3px 3px 2px white;
+      box-shadow: 3px 3px 2px rgb(206, 203, 203);
   }
   .contact .box:nth-child(2) .details {
       background: red;
