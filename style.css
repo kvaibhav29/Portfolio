@@ -291,3 +291,14 @@ img {
       font-size: 14px;
       -webkit-text-fill-color: #fff;
   }
+
+  .img-thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    max-height: auto;
+}
+
+.img-thumbnail img {
+    width: 100%;
+}
