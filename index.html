@@ -13,9 +13,11 @@
     <link type="text/css" src="./dist/bttn.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 </head>
-<body>
-        <nav class="navbar navbar-expand-lg navbar-light">
+<body style="background-color:#0A1930">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
                 <a class="navbar-brand text-white" href="#" style="font-weight:bold;">VK</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -26,7 +28,7 @@
                       <a class="nav-link text-white mr-2" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white mr-2" href="#tools">Tools</a>
+                      <a class="nav-link text-white mr-2" href="#tools">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-white mr-2" href="#service">Services</a>
@@ -42,18 +44,58 @@
                 
               </nav>
     <div class="hero"> 
+        
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="vertical-align">
+                        <div class="container">
+                                <div class="block">
+                                        <h3 >Hello! I am,</h3>
+                                        <h1>Kumar Vaibhav</h1>
+                                        <h3 style="-webkit-text-fill-color: #e2e2f3c7;">Software Developer</h3>
+                                        <h4>Welcome to my Portfolio</h4><br>
+                                        <a href="VKResume.pdf" target="_blank"><button type="button" class="button info" style="opacity: 1">Resume</button></a>
+                                    </div>
+                        </div>
+                        
+                        
+                            
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="vertical-align">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <circle cx="120" cy="70" r="100" stroke="black" stroke-width="2" fill="none" />
+                             </svg>  -->
+                            <div class="col"><img src="images/dp.png" alt=""></div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        
+    </div>
+    <!-------------------------About Me---------------------------->
+    <div class="about" id="tools">
         <div class="container">
-            <div class="col"><img src="images/dp.png" alt=""></div>
-            <div class="col"><font size="10">Welcome to my Portfolio</font></div>  
-            <h3>Kumar Vaibhav</h3>
-            <h3>Software Developer</h3>
+            <h2>About Me</h2>    
+            <svg height="5" width="80vw">
+                    <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
+                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+            </svg>
+           <p>I graduated from <a href="http://www.sjsu.edu/" target="_blank">San Jose Sate University</a> in December 2018 with a Bachelors of Science in Computer Science. I have strong interest in Full Stack Development. I try to create user friendly applications that are fun to use. I am a self starter and motivated team player with ability to accomplish tasks independently and have a get it done attitude. Through my professional activities I have strengthened my soft skills and technical skills and I continue to do so in future as well. </p>
+           <p>Tools I use:</p>
         </div>
     </div>
+   
     <!-------------------------Skills---------------------------->
-    <div class="tools" id="tools">
+    <div class="tools" >
     <div class="container">
         
-        <h1 style="text-align:center;">MY TOOLS</h1>
+        <!-- <h1>Tools I use</h1> -->
+        <!-- <div id="vline"></div> -->
+
         <div class="row">
             <div class="col">
                 <img src="images/j.jpg" alt="java" class="img-fluid">
@@ -93,7 +135,7 @@
                             <img src="images/sql.png" alt="" class="img-fluid">
                     </div>
         </div>
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5">
                 <div class="col">
 
                         <img src="images/selenium.png" alt="java" class="img-fluid">
@@ -125,15 +167,18 @@
 <div class="section1" id="service">
     <div class="container">
             <div data-aos="zoom-in-up">
-            <h1 style="text-align:center;">Backend services</h1></div>
-        
+            <h2>Backend services</h2>
+            <svg height="5" width="80vw">
+                    <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
+                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+            </svg></div>
         <div class="row">
             <div class="col-md-8">
                     <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" style="position: relative;">
                     <h3>Most Experienced</h3>
-                    <p>I like working at the back end part of the project. From setting up th entire framework to connecting databases and writing APIs, I enjoy doing that all. In object oriented programming, Java and Python are my go to languages. When it comes to working with backend frameworks, my preference is Django. I also like to work with firebase for NoSql databases because of the functionality and the documentation provided.</p>
+                    <p>I like working at the back end part of the project. From setting up the entire framework to connecting databases and writing APIs, I enjoy doing that all. In object oriented programming, Java and Python are my go to languages. When it comes to working with backend frameworks, my preference is Django. I also like to work with firebase for NoSql databases because of the functionality and the documentation provided.</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -169,7 +214,12 @@
 <div class="section2">
         <div class="container">
                 <div data-aos="zoom-in-up">
-                <h1 style="text-align:center;">Frontend Designing</h1></div>
+                <h2>Frontend Designing</h2>
+                <svg height="5" width="80vw">
+                    <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
+                </svg></div>
+               
+               
             <div class="row">
                 <div class="col-md-4">
                         <div data-aos="fade-left"
@@ -177,7 +227,7 @@
                         data-aos-easing="ease-in-sine"  style="position: relative;">
                         JavaScript
                         <div class="progress">
-                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                               </div>
                               ANGULAR
                               <div class="progress">
@@ -187,7 +237,7 @@
                               <div class="progress">
                                     <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                                   </div>
-                              HTML ANIMATIONS
+                              React
                               <div class="progress mb-2">
                                     <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
                                   </div>
@@ -207,22 +257,25 @@
         </div>
     </div>
 
-    <div class="section1">
+    <div class="section3">
             <div class="container">
                     <div data-aos="zoom-in-up">
-                    <h1 style="text-align:center;">Other Interests</h1></div>
-                
+                            <h2>Other Interests</h2>
+                            <svg height="5" width="80vw">
+                                    <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
+                                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+                            </svg></div>
                 <div class="row">
                     <div class="col-md-8">
                             <div data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine" style="position: relative;">
                             
-                            <p>My other activities include Android development and automation testing. I use Selenium framework for testing web applications. Novice in Android Development. I tend to work better UI engineering in android.</p>
+                            <p>My other activities include Android development and automation testing. I use Selenium framework for  end to end( E2E) testing web applications. For JavaScript unit testing, I use Jest. Novice in Android Development. I tend to work better UI engineering in android.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                            <div data-aos="fade-left"
+                            <div data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine"  style="position: relative;">
                             ANDROID
@@ -238,7 +291,7 @@
                                         <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                                       </div>
                                   DOCKER
-                                  <div class="progress">
+                                  <div class="progress mb-5">
                                         <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
                                       </div>
                                  </div>
@@ -251,17 +304,121 @@
   
     <!--------------------------Portfolio--------------------------->
   <!-- Portfolio -->
-  <section class="content-section" id="projects">
+  <div class="projects" id="projects">
+        <div class="container">
+            <h2>Projects I helped build</h2>    
+            <svg height="5" width="80vw">
+                    <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
+            </svg>
+            
+            <!-- <div class="pro"> -->
+                <div class="row">
+                    <div class="card">
+                        <div class="container">
+                            <i class="fas fa-code fa-2x mt-2"></i>
+                            <a href="https://github.com/rajmakda/CS174-StockImages" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Stock Images</h4>
+                        <p>Created a web based stock image platform for users to buy and sell images using credits in their account.</p><br>
+                        <p class="p">HTML CSS PHP JavaScript AJAX</p>
+                    </div>
+                    <div class="card">
+                        <div class="container">
+                            <i class="fab fa-android fa-2x mt-2"></i>
+                            <a href="https://github.com/swerdog/BackTrack" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Backtrack App</h4>
+                        <p>Developed an app to track live location of people who are added in your network. Used Google Maps API for the location.</p><br>
+                        <p class="p">JAVA XML</p>
+                    </div>
+                    <div class="card">
+                            <div class="container">
+                                    <i class="fas fa-code fa-2x mt-2"></i>
+                                <a href="#" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                            </div>
+                            <h4>Bloggers Spot</h4>
+                            <p>Built a responsive web application that allows users to create their blogs and share within new and existing groups.</p><br>
+                            <p class="p">Python Django HTML CSS JS</p>
+                        </div>
+                  
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="container">
+                            <i class="fas fa-gamepad fa-2x mt-2"></i>
+                            <a href="https://github.com/kvaibhav29/tic-tac-toe" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Tic Tac Toe</h4>
+                        <p>Built an unbeatable tic tac toe game using python and Minimax AI algorithm.</p><br><br>
+                        <p class="p">Python</p>
+                    </div>
+                    <div class="card">
+                        <div class="container">
+                                <i class="fas fa-database fa-2x mt-2"></i>
+                            <a href="#" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Library System</h4>
+                        <p>Designed and maintained 6 database tables ensuring integrity of user and loan data.</p><br><br>
+                        <p class="p">Java MySql Spring</p>
+                    </div>
+                    <div class="card">
+                            <div class="container">
+                                <i class="fas fa-gamepad fa-2x mt-2"></i>
+                                <a href="https://ayevk.itch.io/ninja-jump" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                            </div>
+                            <h4>Ninja Jump</h4>
+                            <p>Developed an endless jumper game in godot engine using gd script. Designed the artwork and debugged the code to achieve a smooth user experience.</p>
+                            <p class="p mt-1">GD Script</p>
+                        </div>
+
+                </div>
+
+                <div class="row">
+                     <div class="card">
+                        <div class="container">
+                            <i class="fas fa-code fa-2x mt-2"></i>
+                            <a href="#" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Rest API</h4>
+                        <p>Built a Restful API for Similarity Check using Natural Language Processing (NLP) library. Built an Image Recognition Restful API using Tensorflow and Deeplearning</p>
+                        <p class="p">Python Flask Tensorflow</p>
+                    </div>
+                    <div class="card">
+                        <div class="container">
+                                <i class="far fa-file-code fa-2x mt-2"></i>
+                            <a href="#" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
+                        </div>
+                        <h4>Big Data</h4>
+                        <p>Analyzed the dataset using big data ecosystem to recommend car models to a user based on user preference.</p><br>
+                        <p class="p">Hadoop Java Hive</p>
+                    </div>
+                </div>
+                <!-- <div class="img-thumbnail"><img src="images/j.jpg" alt=""></div> -->
+            <!-- </div> -->
+
+               <!-- <div class="box1">
+
+               </div> -->
+        </div>
+    </div>
+    
+  <!-- <section class="content-section" id="projects">
         <div class="container">
           <div class="content-section-heading text-center">
-            <h3 class="text-secondary mb-0">Portfolio</h3>
+            <div class="container">
+                    <h3>Projects I helped build</h3>
+                    <svg height="5" width="80vw">
+                            <line x1="0" y1="0" x2="700" y2="0" style="stroke:#e2e2f3c7;stroke-width:2" />
+                    </svg>
+            </div>
+          
             <h2 class="mb-5">Recent Projects</h2>
           </div>
           <div class="row">    
               <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
                       <div class="img-thumbnail">
                         <img src="images/po5.png" alt="">
-                          <div class="caption">
+                          <div class="caption" style="background: black; -webkit-text-fill-color: white">
                             <h4>Stock Images</h4>
                             <p>Created a web based stock image platform for users to buy and sell images using credits in their account.</p><br><br>
                             <p><a href="https://github.com/rajmakda/CS174-StockImages" class="btn btn-info btn-xs" role="button">Github Repo</a></p>
@@ -316,7 +473,7 @@
                           <p>Built a Restful API for Similarity Check using Natural Language Processing (NLP) library</p>
                           <p>Built an Image Recognition Restful API using Tensorflow and Deeplearning</p>
                           <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">See Project</a> </p> -->
-                      </div>
+                      <!-- </div>
                     </div>
                   </div>
 
@@ -327,7 +484,7 @@
                             <h4>Bloggers Spot</h4>
                             <p>Built a responsive web application that allows users to create their blogs and share within new and existing groups</p> 
                             <br> <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                        </div>
+                        <!-- </div>
                       </div>
                     </div>
 
@@ -338,7 +495,7 @@
                               <h4>Big Data</h4>
                               <p>Analyzed the dataset using big data ecosystem to recommend car models to a user based on user preference</p><br>
                               <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                          </div>
+                          <!-- </div>
                         </div>
                       </div>
                       
@@ -347,125 +504,29 @@
                           <div class="img-thumbnail">
                             <img src="images/jm.png" alt="">
                               <div class="caption">
-                                <h4>Library System</h4>
+                                <h4 >Library System</h4>
                                 <p>Designed and maintained 6 database tables ensuring integrity of user and loan data. </p><br><br>
                                 <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                            </div>
-                          </div>
-                        </div>
+                            <!-- </div>
+                          </div> -->
+                        <!-- </div> -->
                 
             
-            </div>
-        
-          <!-- <div class="row no-gutters">
-            <div class="col-lg-4 sm-12">
-              <a class="portfolio-item" href="#">
-                <span class="caption">
-                  <span class="caption-content">
-                    <h2>Android Application</h2>
-                    <p class="mb-0" style="font-size:1em;">An app to track live location of people added in your network</p>
-                  </span>
-                </span>
-                <img class="img-fluid" src="images/po3.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 sm-12">
-              <a class="portfolio-item" href="#">
-                <span class="caption">
-                  <span class="caption-content">
-                    <h2>Stock Image</h2>
-                    <p class="mb-0" style="font-size:1em;">A website that lets user sell and buy any 2d image content</p>
-                  </span>
-                </span>
-                <img class="img-fluid" src="images/po4.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 sm-12">
-              <a class="portfolio-item" href="#">
-                <span class="caption">
-                  <span class="caption-content">
-                    <h2>Blog Spot</h2>
-                    <p class="mb-0" style="font-size:1em;">A responsive web application that allows users to create their blogs and share within new and existing groups</p>
-                  </span>
-                </span>
-                <img class="img-fluid" src="images/po5.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a class="portfolio-item" href="#">
-                <span class="caption">
-                  <span class="caption-content">
-                    <h2>Workspace</h2>
-                    <p class="mb-0" style="font-size:1em;">A yellow workspace with some scissors, pencils, and other objects.</p>
-                  </span>
-                </span>
-                <img class="img-fluid" src="images/po4.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4">
-                    <a class="portfolio-item" href="#">
-                      <span class="caption">
-                        <span class="caption-content">
-                          <h2>Library System </h2>
-                          <p class="mb-0" style="font-size:1em;"> Collaborated with a team of 5 using Agile methodology to maintain a library database and keep record of issued books</p>
-                        </span>
-                      </span>
-                      <img class="img-fluid" src="images/po3.png" alt="">
-                    </a>
-            </div>
-            <div class="col-lg-4">
-                        <a class="portfolio-item" href="#">
-                          <span class="caption">
-                            <span class="caption-content">
-                              <h2>Big Data</h2>
-                              <p class="mb-0" style="font-size:1em;">Analyzed the dataset using big data ecosystem to recommend car models to a user based on user preference</p>
-                            </span>
-                          </span>
-                          <img class="img-fluid" src="images/po4.png" alt="">
-                        </a>
-            </div>
-            <div class="col-lg-4">
-                    <a class="portfolio-item" href="#">
-                      <span class="caption">
-                        <span class="caption-content">
-                          <h2>Workspace</h2>
-                          <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                        </span>
-                      </span>
-                      <img class="img-fluid" src="images/po3.png" alt="">
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                          <a class="portfolio-item" href="#">
-                            <span class="caption">
-                              <span class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                              </span>
-                            </span>
-                            <img class="img-fluid" src="images/po4.png" alt="">
-                          </a>
-                  </div>
-                  <div class="col-lg-4 mb-5">
-                              <a class="portfolio-item" href="#">
-                                <span class="caption">
-                                  <span class="caption-content">
-                                    <h2>Strawberries</h2>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                                  </span>
-                                </span>
-                                <img class="img-fluid" src="images/po3.png" alt="">
-                              </a>
-                  </div>
-                       
-          </div>-->
-        </div>
-      </section>
-
+            <!-- </div>
+         -->
+        <!-- </div> --> 
+      <!-- </section> --> 
+    
+         <br><br><br><br><br>
     <!--------------------------Contact-------------------------------------->
     <div class="contact" id="contact">
     <div class="container">
-        <div class="row center-block">
+        <h3>Like my Work?</h3><br>
+        <a href="mailto:k.vaibhav2908@gmail.com"><button type="button" class="button info1" style="opacity: 1">Get in Touch</button></a><br><br>
+        <p>I am constantly looking for new opportunities and my inbox is always open.</p>
+        <p class="p">Contact me for any positions or just come say hello!</p>
+        <p></p>
+        <!-- <div class="row center-block">
             
          <a href="mailto:k.vaibhav2908@gmail.com" ><button type="button" class="btn">HIRE ME!</button></a> 
             
@@ -485,11 +546,17 @@
                 <div class="details"><p>k.vaibhav2908@gmail.com</p></div>
             </div>
             
-        </div>
+        </div> -->
        
         </div>   
         </div>
-           
+    
+        <div class="footer">
+                <a href="https://github.com/kvaibhav29" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/kumarvaibhav29/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="https://twitter.com/ayeeevk" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="https://www.instagram.com/ayeevk/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
 
        
     
@@ -498,6 +565,8 @@
     <script>
             AOS.init();
     </script>
+    <script src="jscript.js"></script>
+    
 
 </body>
 </html>
