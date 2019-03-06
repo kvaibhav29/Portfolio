@@ -80,7 +80,7 @@ html {
     animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
 
     animation-duration:1s;
-    animation-delay: .3s
+    animation-delay: .4s
 }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 .fade-in3 {
@@ -218,9 +218,38 @@ html {
 .tools{
     -webkit-text-fill-color: white;
     background: #0A1930;
-    min-height: 700px;
+    min-height: 300px;
     
 }
+
+table{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    -webkit-text-fill-color: #e2e2f3c7;
+    border-spacing: 5px;
+}
+td{
+    padding-right: 80px;
+}
+.about li {
+    color:#7FF2DF !important;
+    list-style:none;
+    position: relative;
+    padding-left:25px;
+    line-height: 2;
+    font-size:14px;
+  }
+  
+  .about li:before {
+    position: absolute;
+    left:0;
+    color:#7FF2DF !important;
+    font-size:14px;
+    content: "\25b8";
+    -webkit-text-fill-color: #7FF2DF;
+  }
+  
+
 .tools h1{
     padding-bottom: 30px;
     font-family: 'Roboto Mono', monospace;
