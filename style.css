@@ -1,12 +1,12 @@
 html {
     scroll-behavior: smooth;
   }
+
 .line {
     width: 80px;
     height: 3px;
     background-color: black;
 }
-
 
 .navbar {
     background: #0A1930;
@@ -61,6 +61,71 @@ html {
 .hero h4 {
     -webkit-text-fill-color: #7FF2DF;
 }
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .2s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in2 {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .3s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in3 {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .4s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in4 {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .5s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in5 {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .6s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in6 {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: .7s
+}
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
 @media screen and (min-width: 601px) {
     .hero h1 {
       font-size: 70px;

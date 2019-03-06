@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 </head>
 <body style="background-color:#0A1930">
-        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fade-in" id="navbar">
                 <a class="navbar-brand text-white" href="#" style="font-weight:bold;">VK</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -50,11 +50,11 @@
                     <div class="vertical-align">
                         <div class="container">
                                 <div class="block">
-                                        <h3 >Hello! I am,</h3>
-                                        <h1>Kumar Vaibhav</h1>
-                                        <h3 style="-webkit-text-fill-color: #e2e2f3c7;">Software Developer</h3>
-                                        <h4>Welcome to my Portfolio</h4><br>
-                                        <a href="VKResume.pdf" target="_blank"><button type="button" class="button info" style="opacity: 1">Resume</button></a>
+                                        <h3 class="fade-in">Hello! I am,</h3>
+                                        <h1 class="fade-in2">Kumar Vaibhav</h1>
+                                        <h3 class="fade-in3" style="-webkit-text-fill-color: #e2e2f3c7;">Software Developer</h3>
+                                        <h4 class="fade-in4">Welcome to my Portfolio</h4><br>
+                                        <a class="fade-in5" href="VKResume.pdf" target="_blank"><button type="button" class="button info fade-in5" style="opacity: 1">Resume</button></a>
                                     </div>
                         </div>
                         
@@ -67,7 +67,7 @@
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                                 <circle cx="120" cy="70" r="100" stroke="black" stroke-width="2" fill="none" />
                              </svg>  -->
-                            <div class="col"><img src="images/dp.png" alt=""></div>
+                            <div class="col fade-in6"><img src="images/dp.png" alt=""></div>
                     </div>
                     
                 </div>
@@ -306,14 +306,18 @@
   <!-- Portfolio -->
   <div class="projects" id="projects">
         <div class="container">
+            <div data-aos="zoom-in-up">
             <h2>Projects I helped build</h2>    
             <svg height="5" width="80vw">
                     <line x1="0" y1="0" x2="700" y2="0" style="stroke:#6a8686c7;stroke-width:1" />
             </svg>
-            
+            </div>
             <!-- <div class="pro"> -->
+                <div data-aos="zoom-in-up">
                 <div class="row">
+                        
                     <div class="card">
+                            
                         <div class="container">
                             <i class="fas fa-code fa-2x mt-2"></i>
                             <a href="https://github.com/rajmakda/CS174-StockImages" target="_blank"><i class="fab fa-github-alt fa-2x mt-2"></i></a>
@@ -321,7 +325,8 @@
                         <h4>Stock Images</h4>
                         <p>Created a web based stock image platform for users to buy and sell images using credits in their account.</p><br>
                         <p class="p">HTML CSS PHP JavaScript AJAX</p>
-                    </div>
+                    
+                    </div> 
                     <div class="card">
                         <div class="container">
                             <i class="fab fa-android fa-2x mt-2"></i>
@@ -342,6 +347,8 @@
                         </div>
                   
                 </div>
+                </div>
+                <div data-aos="zoom-in-up">
                 <div class="row">
                     <div class="card">
                         <div class="container">
@@ -372,7 +379,8 @@
                         </div>
 
                 </div>
-
+                </div>
+                <div data-aos="zoom-in-up">
                 <div class="row">
                      <div class="card">
                         <div class="container">
@@ -393,6 +401,7 @@
                         <p class="p">Hadoop Java Hive</p>
                     </div>
                 </div>
+            </div>
                 <!-- <div class="img-thumbnail"><img src="images/j.jpg" alt=""></div> -->
             <!-- </div> -->
 
@@ -402,120 +411,7 @@
         </div>
     </div>
     
-  <!-- <section class="content-section" id="projects">
-        <div class="container">
-          <div class="content-section-heading text-center">
-            <div class="container">
-                    <h3>Projects I helped build</h3>
-                    <svg height="5" width="80vw">
-                            <line x1="0" y1="0" x2="700" y2="0" style="stroke:#e2e2f3c7;stroke-width:2" />
-                    </svg>
-            </div>
-          
-            <h2 class="mb-5">Recent Projects</h2>
-          </div>
-          <div class="row">    
-              <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                      <div class="img-thumbnail">
-                        <img src="images/po5.png" alt="">
-                          <div class="caption" style="background: black; -webkit-text-fill-color: white">
-                            <h4>Stock Images</h4>
-                            <p>Created a web based stock image platform for users to buy and sell images using credits in their account.</p><br><br>
-                            <p><a href="https://github.com/rajmakda/CS174-StockImages" class="btn btn-info btn-xs" role="button">Github Repo</a></p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                        <div class="img-thumbnail">
-                          <img src="images/po3.png" alt="">
-                            <div class="caption">
-                              <h4>BackTrack App</h4>
-                              <p>Developed an app to track live location of people who are added in your network. Used Google Maps API for the location.</p> <br><br>
-                              <p><a href="#" class="btn btn-info btn-xs" role="button">Github Repo</a> </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                      <div class="img-thumbnail">
-                        <img src="images/nj.png" alt="">
-                          <div class="caption">
-                            <h4>Ninja Jump</h4>
-                            <p>Developed an endless jumper game in godot engine using gd script. Designed the artwork and debugged the code to achieve a smooth user experience</p><br>
-                            <p><a href="https://ayevk.itch.io/ninja-jump" class="btn btn-info btn-xs" role="button">Checkout</a> </p>
-                        </div>
-                      </div>
-                    </div>
-
-                  
-            
-                    <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                        <div class="img-thumbnail">
-                          <img src="images/ttt.png" alt="">
-                            <div class="caption">
-                              <h4>Tic Tac Toe</h4>
-                              <p>Built an unbeatable tic tac toe game using python and Minimax AI algorithm</p> <br><br><br>
-                              <p><a href="https://github.com/kvaibhav29/tic-tac-toe" class="btn btn-info btn-xs" role="button">Github Repo</a> </p>
-                          </div>
-                        </div>
-                      </div>
-            
-            
-                   
-            </div>
-            <div class="row">
-
-                <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                    <div class="img-thumbnail">
-                      <img src="images/po5.png" alt="">
-                        <div class="caption">
-                          <h4>API</h4>
-                          <p>Built a Restful API for Similarity Check using Natural Language Processing (NLP) library</p>
-                          <p>Built an Image Recognition Restful API using Tensorflow and Deeplearning</p>
-                          <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">See Project</a> </p> -->
-                      <!-- </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                      <div class="img-thumbnail">
-                        <img src="images/po6.png" alt="">
-                          <div class="caption">
-                            <h4>Bloggers Spot</h4>
-                            <p>Built a responsive web application that allows users to create their blogs and share within new and existing groups</p> 
-                            <br> <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                        <!-- </div>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                        <div class="img-thumbnail"> 
-                          <img src="images/bd.png" alt="">
-                            <div class="caption">
-                              <h4>Big Data</h4>
-                              <p>Analyzed the dataset using big data ecosystem to recommend car models to a user based on user preference</p><br>
-                              <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                          <!-- </div>
-                        </div>
-                      </div>
-                      
-                 
-                      <div class="col-xs-18 col-sm-6 col-md-3 shadow mb-4">
-                          <div class="img-thumbnail">
-                            <img src="images/jm.png" alt="">
-                              <div class="caption">
-                                <h4 >Library System</h4>
-                                <p>Designed and maintained 6 database tables ensuring integrity of user and loan data. </p><br><br>
-                                <!-- <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> </p> -->
-                            <!-- </div>
-                          </div> -->
-                        <!-- </div> -->
-                
-            
-            <!-- </div>
-         -->
-        <!-- </div> --> 
-      <!-- </section> --> 
+ 
     
          <br><br><br><br><br>
     <!--------------------------Contact-------------------------------------->
@@ -526,27 +422,7 @@
         <p>I am constantly looking for new opportunities and my inbox is always open.</p>
         <p class="p">Contact me for any positions or just come say hello!</p>
         <p></p>
-        <!-- <div class="row center-block">
-            
-         <a href="mailto:k.vaibhav2908@gmail.com" ><button type="button" class="btn">HIRE ME!</button></a> 
-            
-        </div> 
-        <br>
-        <div class="container">
-            <div class="box">
-                <div class="icon"><i class="fas fa-map-marker-alt text-white"></i></div>
-                <div class="details"><p>San Jose, US</p></div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fas fa-phone text-white"></i></div>
-                <div class="details"><p>+16692546254</p></div>
-            </div>
-            <div class="box">
-                <div class="icon"><i class="fas fa-envelope text-white"></i></div>
-                <div class="details"><p>k.vaibhav2908@gmail.com</p></div>
-            </div>
-            
-        </div> -->
+    
        
         </div>   
         </div>
