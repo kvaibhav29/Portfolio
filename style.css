@@ -27,12 +27,13 @@ html {
 .hero {
     height: 700;
     padding-top: 78px;
-    background: #0A1930;
     text-align: center;
     -webkit-text-fill-color: #e2e2f3c7;
     font-family: 'Roboto Mono', monospace;
     border-top: 2px;
     border-color: #fff;
+    
+    
 }
 
 .info {
@@ -615,3 +616,7 @@ td{
 .img-thumbnail img {
     width: 100%;
 }
+
+
+
+
