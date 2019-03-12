@@ -170,6 +170,8 @@ html {
     filter: grayscale(70%) brightness(60%) sepia(90%) hue-rotate(132deg) saturate(900%) contrast(0.8);
     
   }
+
+
 .hero img:hover {
     border:  3px solid #7FF2DF;
     padding: 0px;
