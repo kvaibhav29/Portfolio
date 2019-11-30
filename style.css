@@ -32,7 +32,7 @@ html {
     font-family: 'Roboto Mono', monospace;
     border-top: 2px;
     border-color: #fff;
-    
+    background: #0A1930;
     
 }
 
@@ -162,7 +162,7 @@ html {
 
 
 .hero img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 50%;
     border:  3px solid #7FF2DF;
@@ -221,7 +221,7 @@ html {
 .tools{
     -webkit-text-fill-color: white;
     background: #0A1930;
-    min-height: 300px;
+    min-height: 200px;
     
 }
 
@@ -280,6 +280,50 @@ td{
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
 }
+
+.experience{
+    -webkit-text-fill-color: white;
+    min-height: 400px;
+    height: auto;
+    background: #0A1930;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.experience .row{
+    padding-top: 10px;
+}
+
+.experience a{
+    -webkit-text-fill-color: #7FF2DF;
+}
+
+.experience .col-sm-3.md-4{
+    padding-bottom: 30px;
+}
+
+.experience p{
+    font-size: 14px;
+    -webkit-text-fill-color: #e2e2f3c7;
+    font-family: 'Roboto Mono', monospace;
+}
+.experience li:before {
+    position: absolute;
+    left:0;
+    color:#7FF2DF !important;
+    font-size:14px;
+    content: "\25b8";
+    -webkit-text-fill-color: #7FF2DF;
+  }
+  
+  .experience li {
+    color:#7FF2DF !important;
+    list-style:none;
+    position: relative;
+    padding-left:25px;
+    -webkit-text-fill-color: #e2e2f3c7;
+    font-size:14px;
+  }
 
 
 
@@ -362,7 +406,7 @@ td{
 
 .section3{
     font-family: 'Roboto Mono', monospace;
-    min-height: 450px;
+    min-height: 300px;
     overflow: hidden;
     background: #0A1930;
     -webkit-text-fill-color: white;
